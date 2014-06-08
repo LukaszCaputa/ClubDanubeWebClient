@@ -1,1 +1,18 @@
-<p>This is the partial for view 1.</p>
+<label for="place">Choose place:</label><br>
+<input type="radio" ng-model="data.place" value="erdberg" />CD Erdberg
+<input type="radio" ng-model="data.place" value="ottakring" />CD Ottakring<br />
+
+
+
+<label for="sport">Choose sport:</label>
+ <select ng-model="data.sport">
+  <option value="squash">Squash</option>
+  <option value="badminton">Badminton</option>
+  <option value="tennis">Tennis</option>
+</select> 
+<br>
+
+<button ng-click="reset()">RESET</button><br>
+<button ng-click="send()">SEND</button><br>
+
+{{data.result}}
