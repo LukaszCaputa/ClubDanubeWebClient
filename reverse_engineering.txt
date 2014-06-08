@@ -1,0 +1,554 @@
+http://www.clubdanube.at/appdata/index.php?e=ballsport&s=S220120604&n=Squash&d=2014-05-28&ft=19%3A00%3A00&tt=21%3A00%3A00
+erdberg
+
+http://www.clubdanube.at/appdata/index.php?e=ballsport&s=S420120604&n=Badminton&d=2014-05-27&ft=19%3A00%3A00&tt=21%3A00%3A00
+otakring
+
+http://www.clubdanube.at/appdata/index.php?e=ballsport&s=S220120604&n=Tennis&d=2014-05-27&ft=19%3A00%3A00&tt=00%3A00%3A00
+tenis erdberg
+
+/////////////
+
+{
+	"success": "true",
+	"statuscode": "100",
+	"statusmessage": "OK",
+	"entity": "Ballsport",
+	"debug": "false",
+	"data": [
+
+	{
+		"Id": "Sa5c0c909c0ec2b159d08577856f75dad",
+		"Name": "Badminton",
+		"Tag": "2014-05-27",
+		"Anfang": "19:00:00",
+		"Ende": "20:00:00",
+		"Frei": "1",
+		"Beschreibungs_id": "",
+		"Standort_id": "S420120604",
+		"Match": true
+	}, {
+		"Id": "S2a4d29db041973bdf865aaf8f7b8f35f",
+		"Name": "Badminton",
+		"Tag": "2014-05-27",
+		"Anfang": "20:00:00",
+		"Ende": "21:00:00",
+		"Frei": "1",
+		"Beschreibungs_id": "",
+		"Standort_id": "S420120604",
+		"Match": true
+	}]
+}
+
+
+
+/////////////////
+
+{
+	"success": "true",
+	"statuscode": "100",
+	"statusmessage": "OK",
+	"entity": "Ballsport",
+	"debug": "false",
+	"data": [
+
+	{
+		"Id": "Sa6dda165ad0b0776d74a87998ab1c6ec",
+		"Name": "Squash",
+		"Tag": "2014-05-27",
+		"Anfang": "19:00:00",
+		"Ende": "19:30:00",
+		"Frei": "5",
+		"Beschreibungs_id": "",
+		"Standort_id": "S220120604",
+		"Match": true
+	}, {
+		"Id": "Sc5365d2ae7b2a35b92f002b6af0b1c8c",
+		"Name": "Squash",
+		"Tag": "2014-05-27",
+		"Anfang": "19:30:00",
+		"Ende": "20:00:00",
+		"Frei": "8",
+		"Beschreibungs_id": "",
+		"Standort_id": "S220120604",
+		"Match": true
+	}, {
+		"Id": "Secf4fec2b3d00bc57def8ae6d02b8977",
+		"Name": "Squash",
+		"Tag": "2014-05-27",
+		"Anfang": "20:00:00",
+		"Ende": "20:30:00",
+		"Frei": "12",
+		"Beschreibungs_id": "",
+		"Standort_id": "S220120604",
+		"Match": true
+	}, {
+		"Id": "S3038c8adea94cf53c616eba73937e734",
+		"Name": "Squash",
+		"Tag": "2014-05-27",
+		"Anfang": "20:30:00",
+		"Ende": "21:00:00",
+		"Frei": "15",
+		"Beschreibungs_id": "",
+		"Standort_id": "S220120604",
+		"Match": true
+	}]
+}
+
+
+///////////////// standort
+{
+	"success": "true",
+	"statuscode": "100",
+	"statusmessage": "OK",
+	"entity": "Standorte",
+	"data": [
+
+	{
+		"Id": "S220120604",
+		"Name": "Club Danube Erdberg",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Franzosengraben 2-4",
+		"PLZ": "1030",
+		"Ort": "Wien",
+		"Leiter": "Mag. Helmut Niese",
+		"Tel": "01/79 88 400",
+		"EMail": "erdberg@clubdanube.at",
+		"Fax": "01/79 88 400 14",
+		"Beschreibung": "<p><span class=\"headcd\">Die ganze Welt der Fitness!</span> <br /><span class=\"conttable\">Einer der gr&ouml;&szlig;ten Clubs und nach wie vor DER Treffpunkt Nummer eins f&uuml;r alle Sport-Begeisterten ist der Club Danube im P&amp;R U3 Erdberg. Der gro&szlig;z&uuml;gige Fitness-Bereich erm&ouml;glicht ein effizientes Training ohne Wartezeiten an den&nbsp;modernsten Ger&auml;ten und f&uuml;r unsere weiblichen G&auml;ste ist der Lady-Fitness-Bereich in Erdberg sogar in einem separaten Raum untergebracht, in dem die Sportlerinnen unter sich bleiben und ungest&ouml;rt trainieren k&ouml;nnen. Insgesamt 4 Gymnastiks&auml;le stehen f&uuml;r ein umfangreiches Work Out-Programm von klassischen Aerobic Stunden bis hin zu diversen Spezial-Angeboten zur Verf&uuml;gung. Besonders erw&auml;hnenswert ist hier z.B. das Easy-Line-Zirkeltraining f&uuml;r eine verbesserte Kondition oder die ansprechende Asia-Zone f&uuml;r Spezialstunden wie Yoga Pilates uvm. Auch Racketsportler&nbsp;kommen in Erdberg voll auf ihre Kosten&nbsp;- ob bei Badminton, Squash oder Tennis, die B&auml;lle fliegen hier scharf. Und zus&auml;tzlich bietet die Anlage im 3. Bezirk noch viele Extras wie Kosmetik oder Tanz. Das ist Freizeiterlebnis total!</span></p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>: U3 Erdberg, <a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Erdberg_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br /><br /><br /><strong>Parken</strong>: P&amp;R Erdberg APCOA-Parkgarage<br />bis 3 Stunden: &euro; 1,80 (an der Rezeption)<br />ab 3 Stunden: &euro;&nbsp; 3,00 pro Tag<br /><span style=\"color: #ff0000;\">Ben&uuml;tzen Sie die linke Einfahrtsspur - eigens f&uuml;r Club Danube-Kunden!</span></p>",
+		"Angebot": "<p style=\"margin-right: 0px;\" dir=\"ltr\"><strong>Angebot</strong>:</p><ul><li>800 m&sup2; Fitness </li><li>Lady-Fitness </li><li>Dr. Wolff R&uuml;ckenschule </li><li>Easy-Line Circle</li><li>2 Gymnastiks&auml;le </li><li>Asia Zone </li><li>15 Squash-Courts </li><li>3 Indoor-Tennispl&auml;tze - <strong>die Bel&auml;ge wurden komplett erneuert!</strong> <span class=\"inhaltnormal\">Ab sofort spielen Sie&nbsp;auf einem Tennishallen-Gleitbelag mit gelenkschonenden Filzr&uuml;cken in dunkelgr&uuml;n.</span> </li><li>10 Badminton-Pl&auml;tze - <strong>mit neuem Bodenbelag und verbesserter Beleuchtung komplett neu adaptiert!</strong></li><li>Infrarotw&auml;rme-Kabine, Sauna, Dampfbad </li><li>3 Solarien - <span style=\"color: #ff0000;\">neue Ergoline Betten</span></li><li><strong>Neues Massagestudio: Shiatsu &amp; Klang</strong>&nbsp;<a href=\"http://www.gerhard-shiatsu.at/\" target=\"_blank\">www.gerhard-shiatsu.at</a></li><li>Channoine Kosmetik Susanne Tesar - <a href=\"mailto:susanne.tesar@channoine-partner.com\">susanne.tesar@channoine-partner.com</a></li><li><a class=\"down\" href=\"../cd_index.php?P=49\">Vienna Dance Center</a> </li><li>Gastronomie \"Cici`s Sportlounge\"</li><li>Fitbar</li></ul>",
+		"LatLng": "48.190474,16.414067",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Cardio & Tone", "Easy Gym", "Easy Line Circle", "Fatburning Basic", "Fatburning Master", "Gesunder Rücken", "Hatha Yoga", "Kickboxing", "Pilates", "Step Basic", "Step Master", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Badminton", "Squash", "Tennis"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "23:00"],
+			"Dienstag": ["07:00", "23:00"],
+			"Mittwoch": ["07:00", "23:00"],
+			"Donnerstag": ["07:00", "23:00"],
+			"Freitag": ["07:00", "22:30"],
+			"Samstag": ["08:00", "22:00"],
+			"Sonntag": ["08:00", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["09:00", "22:30"],
+			"Dienstag": ["09:00", "22:30"],
+			"Mittwoch": ["09:00", "22:30"],
+			"Donnerstag": ["09:00", "22:30"],
+			"Freitag": ["09:00", "22:00"],
+			"Samstag": ["09:00", "21:30"],
+			"Sonntag": ["09:00", "21:30"]
+		}
+
+		]
+	}, {
+		"Id": "S420120604",
+		"Name": "Club Danube Ottakring",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Kendlerstraße 41",
+		"PLZ": "1160",
+		"Ort": "Wien",
+		"Leiter": "Felix Wandl",
+		"Tel": "01/786 26 00",
+		"EMail": "ottakring@clubdanube.at",
+		"Fax": "01/786 26 00 4",
+		"Beschreibung": "<p>Der Club Danube Ottakring bietet auf 11.000 m&sup2; f&uuml;r jeden Sport-Fan das Passende. Von einem Riesen-Angebot an Gymnastik-Stunden &uuml;ber Tennispl&auml;tze und Badminton-Courts bis hin zu Fu&szlig;-, Volley- oder Basketball-Action in der Mehrzweckhalle&nbsp;- hier kommt jeder auf seine Kosten. <br />Extra-Plus: das angeschlossene Sporttherapie-Zentrum \"Medical Fitness\", wo viele Prominente aus Sport und Politik trainieren. In Ottakring teilen sich Hobby- und Profi-Sportler die Garderobe!</p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>: U3 Station-Kendlerstra&szlig;e&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Ottakring_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br /><br /><br /><strong>Parken</strong>: P&amp;R U3 APCOA-Parkgarage<br />bis 3 Stunden: &euro; 1,80 (an der Rezeption)<br />ab 3 Stunden: &euro;&nbsp; 3,00 pro Tag<br /><span style=\"color: #ff0000;\">Sonderpreis f&uuml;r Club Danube Kunden!</span></p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li class=\"conttable\">1.000 m&sup2; Fitness </li><li class=\"conttable\">Dr. Wolff R&uuml;ckenschule</li><li class=\"conttable\">Ladyfitness</li><li class=\"conttable\">Mehrzweckhalle f&uuml;r Ballsport </li><li class=\"conttable\">5 Indoor-Tennispl&auml;tze </li><li class=\"conttable\">13 Badminton-Pl&auml;tze </li><li class=\"conttable\">5 Squash-Pl&auml;tze </li><li class=\"conttable\">2 Gymnastiks&auml;le </li><li class=\"conttable\">Infrarotw&auml;rme-Kabine, Sauna<strong>,</strong> Dampfbad </li><li class=\"conttable\">2&nbsp;Solarien - <span style=\"color: #ff0000;\">neue Megasun Betten</span></li><li class=\"conttable\"><a class=\"down\" href=\"../cd_index.php?P=39&amp;Nav=a5\">Massage</a> </li><li class=\"conttable\">Sporttherapie-Zentrum-Medical Fitness</li><li class=\"conttable\">Neu&uuml;bernahme der Gastronomie! Das Team der Sportfit Gastro-Lounge freut sich auf Ihren Besuch!</li></ul>",
+		"LatLng": "48.207022,16.309846",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Body Work \"plus\"", "Fatburning Basic", "Fatburning Master", "Gesunder Rücken", "Hatha Yoga", "Kickboxing", "Pilates", "Pumping", "Rücken \"plus\"", "Step Basic", "Step Master", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Badminton", "Mehrzweckhalle", "Squash", "Tennis", "Tischtennis"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "23:00"],
+			"Dienstag": ["07:00", "23:00"],
+			"Mittwoch": ["07:00", "23:00"],
+			"Donnerstag": ["07:00", "23:00"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["08:00", "22:00"],
+			"Sonntag": ["08:00", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "21:30"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "21:30"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["09:00", "22:30"],
+			"Dienstag": ["09:00", "22:30"],
+			"Mittwoch": ["09:00", "22:30"],
+			"Donnerstag": ["09:00", "22:30"],
+			"Freitag": ["09:00", "21:30"],
+			"Samstag": ["09:00", "21:30"],
+			"Sonntag": ["09:00", "21:30"]
+		}
+
+		]
+	}, {
+		"Id": "S620120604",
+		"Name": "Club Danube Alt Erlaa",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Anton Baumgartnerstr. 40",
+		"PLZ": "1230",
+		"Ort": "Wien",
+		"Leiter": "Petra Pointner",
+		"Tel": "01/662 66 66",
+		"EMail": "alterlaa@clubdanube.at",
+		"Fax": "01/662 66 66 4",
+		"Beschreibung": "<p><span class=\"headgruen\">Ein Eldorado f&uuml;r Fitness-Fans! <br /></span><span class=\"conttable\">Im Club Danube Alt Erlaa ist alles ganz auf Fitness ausgerichtet&nbsp;- auf 1.400 m&sup2; kann gestemmt, gedr&uuml;ckt und gehoben werden. Der gro&szlig;e Fitnesspark inklusive eigenem Cardio-Podest l&auml;sst wirklich keine W&uuml;nsche offen. Nach Herzenslust austoben kann man sich auch auf den Badminton- und Squash-Pl&auml;tzen oder in der 300 m2 gro&szlig;en Mehrzweckhalle. In Alt Erlaa f&uuml;hlt sich jeder Sportbegeisterte zuhause!</span></p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>: U6 Station-Alt Erlaa<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Alt_Erlaa_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br /><br /><strong>Parken</strong>:&nbsp;5 Stunden gratis am Atrium-Parklatz oder in der Parkgarage</p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li class=\"conttable\">1.400 m&sup2; Fitness </li><li class=\"conttable\">9 Badminton Pl&auml;tze </li><li class=\"conttable\">5 Squash Pl&auml;tze </li><li class=\"conttable\">300 m&sup2; Mehrzweckhalle </li><li class=\"conttable\">3&nbsp;Gymnastiks&auml;le </li><li class=\"conttable\">Asia Zone </li><li class=\"conttable\">Infrarotw&auml;rme-Kabine, Sauna, Dampfbad </li><li class=\"conttable\">3&nbsp;Solarien</li><li><a class=\"down\" href=\"http://www.eva-mariafrank.at/\" target=\"_blank\">Kosmetik und Life Style Zentrum Eva-Maria Frank</a><br /><span class=\"conttable\">N&auml;here Infos zu Angeboten und &Ouml;ffnungszeiten des Life Style Zentrums gibt es </span><a class=\"down\" href=\"../images/clubs/images/alterlaa/Lifestylezentrum_%C3%96ffnungszeiten.pdf\" target=\"_blank\">hier</a></li><li class=\"conttable\"><a class=\"down\" href=\"../cd_index.php?P=39&amp;Nav=a5\">Massage</a></li><li class=\"conttable\">Seminarraum </li></ul><p class=\"conttable\">&nbsp;</p><p class=\"conttable\">&nbsp;</p>",
+		"LatLng": "48.151643,16.318578",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Body Work \"plus\"", "Cardio & Tone", "Easy Gym", "Easy Line Circle", "Fatburning & Tone", "Fatburning Basic", "Fatburning Master", "Gesunder Rücken", "Hatha Yoga", "Kickboxing", "Kundalini Yoga", "Pilates", "Rücken \"plus\"", "Rücken Power \"plus\"", "Step Basic", "Step Master", "Yoga Flow", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Badminton", "Mehrzweckhalle", "Squash"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "23:00"],
+			"Dienstag": ["07:00", "23:00"],
+			"Mittwoch": ["07:00", "23:00"],
+			"Donnerstag": ["07:00", "23:00"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["08:00", "22:00"],
+			"Sonntag": ["08:00", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "21:30"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "21:30"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["08:30", "22:30"],
+			"Dienstag": ["08:30", "22:30"],
+			"Mittwoch": ["08:30", "22:30"],
+			"Donnerstag": ["08:30", "22:30"],
+			"Freitag": ["09:00", "21:30"],
+			"Samstag": ["09:00", "21:30"],
+			"Sonntag": ["09:00", "21:30"]
+		}
+
+		]
+	}, {
+		"Id": "S720120604",
+		"Name": "Club Danube Donauzentrum",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Adolf Schärf Platz 4",
+		"PLZ": "1220",
+		"Ort": "Wien",
+		"Leiter": "Gisela Plank",
+		"Tel": "01/203 78 80",
+		"EMail": "donauzentrum@clubdanube.at",
+		"Fax": "01/203 78 80 4",
+		"Beschreibung": "<p><span class=\"headcd\">Zum Waschbrettbauch in der Donaustadt! </span></p><p><span class=\"conttable\">Wenn die Gesch&auml;fte im Einkaufzentrum die Rolll&auml;den herunterlassen, dann geht es ins anliegende Fitnesscenter, den Club Danube Donauzentrum. Lady-Fitness, Fitness-Checks mit professionell ausgebildeten Trainern oder Aerobic-Power, &uuml;ber der Donau ist immer was los. Seit Jahren schwitzen hier jung und alt, um im Sommer auf der Donauinsel eine gute Figur zu machen&nbsp;- mit Erfolg!</span></p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>: U1 Kagran, 26, 26A, 27A, 93A, 94A&nbsp;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; <a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Donauzentrum_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br /><br /><strong>Parken</strong>: Parkhaus 2 Donauzentrum - 3 Stunden gratis!</p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li class=\"conttable\">2.000 m&sup2; Fitness </li><li class=\"conttable\">Dr. Wolff R&uuml;ckenschule</li><li class=\"conttable\">Lady-Fitness </li><li class=\"conttable\">4&nbsp;Gymnastiks&auml;le </li><li class=\"conttable\">2&nbsp;Solarien</li><li class=\"conttable\">Spinning&nbsp;</li><li class=\"conttable\">Sauna, Dampfbad, Infrarotkabine</li><li><a class=\"down\" href=\"../images/clubs/DZ%20Kosmetikstudio.pdf\" target=\"_blank\">In Vita Point-Studio f&uuml;r Lifestyle, Sch&ouml;nheit &amp; Wohlbefinden&nbsp;- N&auml;here Infos &amp; Angebote HIER.</a></li></ul><p class=\"conttable\">&nbsp;</p>",
+		"LatLng": "48.243082,16.434127",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Cardio & Tone", "Cardio & Tone \"plus\"", "Easy Line Circle", "Fatburning Basic", "Fatburning Master", "Fit Box", "Gesunder Rücken", "Hatha Yoga", "Indoor Cycling", "Kickboxing", "Latino", "Pilates", "Rücken \"plus\"", "Step Basic", "Step Master", "Yoga Flow", "Zumba"],
+		"Ballsport": false,
+		"Ballsportarten": [""],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["06:30", "23:00"],
+			"Dienstag": ["06:30", "23:00"],
+			"Mittwoch": ["06:30", "23:00"],
+			"Donnerstag": ["06:30", "23:00"],
+			"Freitag": ["06:30", "23:00"],
+			"Samstag": ["07:00", "22:00"],
+			"Sonntag": ["07:00", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["06:30", "22:30"],
+			"Dienstag": ["06:30", "22:30"],
+			"Mittwoch": ["06:30", "22:30"],
+			"Donnerstag": ["06:30", "22:30"],
+			"Freitag": ["06:30", "22:30"],
+			"Samstag": ["07:00", "21:30"],
+			"Sonntag": ["07:00", "21:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["08:00", "22:30"],
+			"Dienstag": ["08:00", "22:30"],
+			"Mittwoch": ["08:00", "22:30"],
+			"Donnerstag": ["08:00", "22:30"],
+			"Freitag": ["08:00", "22:30"],
+			"Samstag": ["08:00", "21:30"],
+			"Sonntag": ["08:00", "21:30"]
+		}
+
+		]
+	}, {
+		"Id": "S820130801",
+		"Name": "Club Danube Alte Donau",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Arbeiterstrandbadstraße 85a",
+		"PLZ": "1210",
+		"Ort": "Wien",
+		"Leiter": "Sabine Schulz",
+		"Tel": "01/2632155",
+		"EMail": "altedonau@clubdanube.at",
+		"Fax": "01/26321554",
+		"Beschreibung": "<p><span class=\"headcd\">Mitten in der City und doch im Gr&uuml;nen!</span> <br />Der Club Danube Alte Donau bietet Urlaubs-Feeling direkt in der Gro&szlig;stadt. Neben &Ouml;sterreichs gr&ouml;&szlig;ter Beachvolleyball-Anlage (12 Pl&auml;tze!) und einem riesigen Badeareal erwarten Sie jede Menge sportlicher Freizeitaktivit&auml;ten. <br />Summer Special: Beach-Gymnastik im Freien! Kommen Sie in die Arbeiterstrandbadstra&szlig;e und genie&szlig;en Sie Sport pur mitten in der Natur!</p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>: U6,&nbsp;U1, Buslinie 20B&nbsp;&nbsp;<a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Alte_Donau_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br /><br /><strong>Parken:</strong> Arbeiterstrandbadstra&szlig;e - gro&szlig;er Parkplatz vis-a-vis</p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\"><tbody><tr><td class=\"cont\"><li>60.000 m&sup2; Badeareal mit FKK-Bereich - <span style=\"color: #99cc00;\">Badekabinen zu vermieten!</span></li><li>1.100 m&sup2; Fitness und Lady-Fitness </li><li>Dr. Wolff R&uuml;ckenschule</li><li>4&nbsp;Gymnastiks&auml;le </li><li>Beach Gymnastik </li><li><a class=\"down\" href=\"../cd_index.php?P=28&amp;Nav=a2\"><span style=\"color: #000000;\">12 Beachvolleyball-Courts</span></a> </li><li>2 Indoor- und 3 Outdoor-Tennispl&auml;tze </li><li>Spinning (von September bis Ende April)</li><li><span style=\"color: #99cc00;\">Segel- und Surfschule Kalcher</span></li><li>Solarium </li><li>Infrarotw&auml;rme-Kabine , Sauna und Dampfbad</li><li><a class=\"down\" href=\"../cd_index.php?P=39&amp;Nav=a5\" target=\"_blank\">Massage</a></li><li>Gastronomie -&nbsp; <a href=\"http://www.coconut.at\" target=\"_blank\">COCONUT GROOVE</a></li></td></tr></tbody></table>",
+		"LatLng": "48.244496,16.411725",
+		"Gymnastik": true,
+		"Gymnastikarten": [" Cardio & Tone alternativ Easy Line Circle", "Bauch Bein Po", "Bauch Bein Po \"plus\"", "Bauchtanz", "Body Work", "Body Work \"plus\"", "Cardio & Tone \"plus\"", "Fatburning & Tone", "Fatburning Basic", "Fatburning Master", "Kundalini Yoga", "Nordic Walking", "Pilates", "Rücken \"plus\"", "Rücken Power", "Step & Tone", "Step Basic alternativ Easy Line Circle", "Step Master", "Yoga", "Yoga Flow", "Yogalates", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Beachvolleyball", "Tennis", "Tennis Frei"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "22:30"],
+			"Samstag": ["07:30", "21:30"],
+			"Sonntag": ["07:30", "21:30"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:00"],
+			"Dienstag": ["07:00", "22:00"],
+			"Mittwoch": ["07:00", "22:00"],
+			"Donnerstag": ["07:00", "22:00"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["07:30", "21:00"],
+			"Sonntag": ["07:30", "21:00"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:00"],
+			"Dienstag": ["07:00", "22:00"],
+			"Mittwoch": ["07:00", "22:00"],
+			"Donnerstag": ["07:00", "22:00"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["08:00", "21:00"],
+			"Sonntag": ["08:00", "21:00"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["09:00", "22:00"],
+			"Dienstag": ["09:00", "22:00"],
+			"Mittwoch": ["09:00", "22:00"],
+			"Donnerstag": ["09:00", "22:00"],
+			"Freitag": ["09:00", "22:00"],
+			"Samstag": ["09:00", "21:00"],
+			"Sonntag": ["09:00", "21:00"]
+		}
+
+		]
+	}, {
+		"Id": "S920140325",
+		"Name": "Club Danube Favoriten",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Favoritenstraße 183",
+		"PLZ": "1100",
+		"Ort": "Wien",
+		"Leiter": "Tina Orasch",
+		"Tel": "01/604 84 30",
+		"EMail": "favoriten@clubdanube.at",
+		"Fax": "01/604 84 304",
+		"Beschreibung": "<p><span class=\"headcd\">Sport und Wohlf&uuml;hlen im Club Danube Favoritenstra&szlig;e:<br /></span>Neben den Klassischen Fitness -und Aerobicangeboten&nbsp;wird im Club Danube Favoritenstra&szlig;e viel&nbsp;Wert auf das Ballgef&uuml;hl gelegt. Ob am Netz , unter'm Korb oder in der Mehrzweckhalle , es geht immer rund. Die neu gestaltete, gem&uuml;tliche Selbstbedienungs-Gastronomie mit Wohnzimmerflair l&auml;dt zum Verweilen ein. Auch auf den sechs Badmintonfeldern und f&uuml;nf&nbsp; Squashpl&auml;tzen wird hart um Punkte gefightet . Wer sich nach dem Training gerne mal verw&ouml;hnen lassen m&ouml;chte, der g&ouml;nnt seinem K&ouml;rper eine entspannende Massage.</p>",
+		"Erreichbarkeit": "<p><strong>ERREICHBARKEIT</strong>: 67 , 264, 267, 268 , 368 , 469 , 470<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Favoriten_de.htm\" target=\"_blank\">VOR -Fahrplanauskunft</a><br /><br /><br /><strong>Parken</strong>: Parkhaus max . 3 Stunden gratis!<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (Einfahrt Schleiergasse)</p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li class=\"conttable\">1.200 m&sup2; Fitness </li><li class=\"conttable\">Lady- Fitness in separierten Saal - sehr sch&ouml;nes Ambiente</li><li class=\"conttable\">Dr. Wolff R&uuml;ckenschule </li><li class=\"conttable\">2 Gymnastiks&auml;le </li><li class=\"conttable\">Das neu gestaltete Easy Line Center im ehemaligen Wintergarten erstrahlt im hellen Tageslicht.<br />Dieses moderne, gelenkschonende Circeltraining an hydraulisch ged&auml;mpften Ger&auml;ten ist auch f&uuml;r EINSTEIGER sehr gut geeignet!</li><li class=\"conttable\">Mehrzweckhalle </li><li class=\"conttable\">5 Squash -Pl&auml;tze </li><li class=\"conttable\">3&nbsp;Badminton -Pl&auml;tze </li><li class=\"conttable\">Tischtennis </li><li class=\"conttable\">Zwei Solarien </li><li class=\"conttable\">Infrarotw&auml;rme - Kabine , Sauna, Dampfbad </li><li><a class=\"down\" href=\"../cd_index.php?P=39&amp;Nav=a5\" target=\"_blank\">Massage</a> </li><li class=\"conttable\">Snack&nbsp;&amp; Drink im Wohnzimmerflair</li></ul>",
+		"LatLng": "48.166429,16.382071",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Cardio & Tone", "Easy Line Circle", "Fatburning Basic", "Fatburning Master", "Kundalini Yoga", "Pilates", "Rücken \"plus\"", "Step & Tone", "Step Basic", "Step Master", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Badminton", "Squash", "Tischtennis"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["08:00", "22:30"],
+			"Samstag": ["08:00", "21:00"],
+			"Sonntag": ["08:00", "21:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:00"],
+			"Dienstag": ["07:00", "22:00"],
+			"Mittwoch": ["07:00", "22:00"],
+			"Donnerstag": ["07:00", "22:00"],
+			"Freitag": ["08:00", "22:00"],
+			"Samstag": ["08:00", "20:30"],
+			"Sonntag": ["08:00", "20:30"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:00"],
+			"Dienstag": ["07:00", "22:00"],
+			"Mittwoch": ["07:00", "22:00"],
+			"Donnerstag": ["07:00", "22:00"],
+			"Freitag": ["08:00", "22:00"],
+			"Samstag": ["08:00", "20:30"],
+			"Sonntag": ["08:00", "20:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["09:00", "22:00"],
+			"Dienstag": ["09:00", "22:00"],
+			"Mittwoch": ["09:00", "22:00"],
+			"Donnerstag": ["09:00", "22:00"],
+			"Freitag": ["09:00", "22:00"],
+			"Samstag": ["09:00", "20:30"],
+			"Sonntag": ["09:00", "20:30"]
+		}
+
+		]
+	}, {
+		"Id": "S1020120604",
+		"Name": "Club Danube Hütteldorf",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Deutschordenstraße 3",
+		"PLZ": "1140",
+		"Ort": "Wien",
+		"Leiter": "Markus Krista",
+		"Tel": "01/416 25 43",
+		"EMail": "huetteldorf@clubdanube.at",
+		"Fax": "01/416 25 43 4",
+		"Beschreibung": "<p><span class=\"headcd\">4000 m&sup2; Fitness mit Gr&uuml;nblick!</span></p><p><span class=\"contbac\">Die Club Danube Sportanlage am gr&uuml;nen Stadtrand von Wien-H&uuml;tteldorf l&auml;sst keine W&uuml;nsche offen, wenn es um &Auml;sthetik, Komfort und gesundheitstechnische Innovation geht! Ohne Ballspiel-M&ouml;glichkeiten ist der neue Club ein wahres Paradies f&uuml;r alle Fitness-Begeisterten: auf &uuml;ber 4000 m&sup2; modernst und liebevoll gestalteter Gesamtfl&auml;che mit Blick ins satte Gr&uuml;n des Wienerwalds ist hier allein der Fitness-Bereich &uuml;ber 1.400 m&sup2; gro&szlig; und mit mehr als 200 innovativen Trainingsstationen, einer Fitness-Bar, und nat&uuml;rlich einem eigenen Lady-Fitness-Bereich ausgestattet. 4 riesige Gymnastiks&auml;le stehen f&uuml;r ein abwechslungsreiches Trainingsprogramm von Aerobic bis Yoga und anderen Asia- und Spezial-Angeboten zur Verf&uuml;gung. Der gro&szlig;z&uuml;gige Wellness-Bereich mit einer gro&szlig;en Freiterrasse zum Frischluft-Tanken, Sauna, Dampfbad, Ruheraum, Solarium, W&auml;rmekabinen und vielen anderen attraktiven Wohlf&uuml;hl-Angeboten l&auml;dt zum komfortablen Entspannen nach dem Training.</span></p>",
+		"Erreichbarkeit": "<p><strong>Erreichbarkeit</strong>:</p><p dir=\"ltr\">U4 H&uuml;tteldorf (direkter &Uuml;bergang von der U-Bahn-Station);&nbsp;S45 H&uuml;tteldorf,&nbsp;<a class=\"down\" href=\"../images/clubs/VOR/Club_Danube_Erdberg_de.htm\" target=\"_blank\">VOR-Fahrplanauskunft</a><br />Eingang f&uuml;r Fu&szlig;g&auml;nger:&nbsp;Deutschordenstra&szlig;e 3a, mit Lift Parkdeck 6 <br />mit dem Auto &uuml;ber Parkdeck 6, Stiege 2</p><p dir=\"ltr\"><strong>Parken</strong>:</p><p dir=\"ltr\">P&amp;R H&uuml;tteldorf, APCOA-Parkgarage<br />bis 3 Stunden: &euro; 1,80 (an der Rezeption)<br />ab 3 Stunden: &euro; 3,00 pro Tag<br /><span style=\"color: #ff0000;\">Sonderpreis f&uuml;r Club Danube Kunden!</span></p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li>1.400 m&sup2; Fitness </li><li>Lady-Fitness </li><li>Dr. Wolff R&uuml;ckenschule </li><li>4 Gymnastiks&auml;le</li><li>Sauna, Dampfbad </li><li>Solarien</li><li>Infrarotw&auml;rme-Kabine</li><li>gro&szlig;z&uuml;gige Freiterasse</li><li><a class=\"down\" href=\"../cd_index.php?P=39&amp;Nav=a5\" target=\"_blank\">Massage</a></li><li>Gastronomie </li><li>Fitnessbar </li></ul>",
+		"LatLng": "48.195616,16.264461",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Bauch Bein Po", "Bauch Bein Po \"plus\"", "Body Work", "Easy Line Circle", "Fatburning Basic", "Gesunder Rücken", "Hatha Yoga", "Indoor Cycling", "Pilates", "Power Walking alternativ Easy Line Circle", "Step & Tone", "Step Basic", "Step Master", "Yoga \"plus\"", "Zumba"],
+		"Ballsport": false,
+		"Ballsportarten": [""],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "23:00"],
+			"Dienstag": ["07:00", "23:00"],
+			"Mittwoch": ["07:00", "23:00"],
+			"Donnerstag": ["07:00", "23:00"],
+			"Freitag": ["07:00", "23:00"],
+			"Samstag": ["07:30", "22:00"],
+			"Sonntag": ["07:30", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "22:30"],
+			"Dienstag": ["07:00", "22:30"],
+			"Mittwoch": ["07:00", "22:30"],
+			"Donnerstag": ["07:00", "22:30"],
+			"Freitag": ["07:00", "22:30"],
+			"Samstag": ["07:30", "21:30"],
+			"Sonntag": ["07:30", "21:30"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["09:00", "22:30"],
+			"Dienstag": ["09:00", "22:30"],
+			"Mittwoch": ["09:00", "22:30"],
+			"Donnerstag": ["09:00", "22:30"],
+			"Freitag": ["09:00", "22:30"],
+			"Samstag": ["09:00", "21:30"],
+			"Sonntag": ["09:00", "21:30"]
+		}
+
+		]
+	}, {
+		"Id": "S1120131021",
+		"Name": "Sportpark Süßenbrunn",
+		"Bilder": ["http://www.clubdanube.at/images/app.gif"],
+		"Adresse": "Weingartenallee 22",
+		"PLZ": "1220",
+		"Ort": "Wien",
+		"Leiter": "Andreas Artner",
+		"Tel": "01/256 82 82",
+		"EMail": "office@sportparkwien.at",
+		"Fax": "01/256 82 82 44",
+		"Beschreibung": "<p><span class=\"headcd\">Sport-und Freizeiterlebnis vom Feinsten !</span> <br /><br />In&nbsp;dieser multifunktionellen Freizeitanlage befindet sich neben dem <strong>Club Danube Plus Fitness &amp; Racketclub </strong>auch das <strong>**** Hotel Sportpark</strong> und der <strong>Golf Club Wien- S&uuml;&szlig;enbrunn</strong>!<br /><br />Im SPORTPARK Wien-S&uuml;&szlig;enbrunn kommen alle Sportbegeisterten voll auf Ihre Kosten. Neben dem bew&auml;hrten Fitness -und Wellnessangebot stehen Tennis-, Badminton- und Squashpl&auml;tze sowie ein Outdoor- Pool zur Verf&uuml;gung .</p><p><br /><strong class=\"headblau12\">Sportpark Wien- S&uuml;&szlig;enbrunn, ist \"Das Sport-und Freizeiterlebnis vom Feinsten!\"</strong></p><p>Ausklingen l&auml;sst man den Sporttag am Besten auf der Terrasse des <strong>Restaurant Verde</strong>, das sie&nbsp;mit &ouml;sterreichischer und internationaler K&uuml;che verw&ouml;hnt . Unser neuer K&uuml;chenchef J&uuml;rgen Eder legt besonderen Wert auf frische und regionale K&uuml;che.</p>",
+		"Erreichbarkeit": "<p><strong>ERREICHBARKEIT</strong>: Schnellbahnstation S&uuml;&szlig;enbrunn und 25 A, An Samstagen , Sonn und Feiertagen f&auml;hrt auch&nbsp;das AS-Tax&nbsp;zum Sportpark , nach telefonischer Voranmeldung !<br />N&auml;here Infos zum AS-Tax und den Fahrpl&auml;nen erhalten Sie unter</p><p><strong>Parken</strong>:<strong>Kostenloser Kunden Parkplatz </strong></p>",
+		"Angebot": "<p><strong>Angebot</strong>:</p><ul><li>300&nbsp;m&sup2; Fitness </li><li>200&nbsp;m&sup2; Cardio Bereich</li><li><strong>3&nbsp;Indoor-Tennispl&auml;tze </strong>( Teppichbelag )</li><li><strong>3&nbsp;Outdoor - Tennispl&auml;tze</strong> ( Teppichbelag )</li><li><strong>2 Squash-Courts</strong></li><li><strong>5 Doppel- und 2 Einzel -Badmintonpl&auml;tze</strong> </li><li>Gymnastiksaal </li><li>2 Solarien und Infrarotkabine</li><li>Seminar-und Veranstaltungsraum </li><li><strong>Outdoor- Pool</strong> &amp; Wellness Bereich mit Sauna, Dampfbad </li><li><strong>Professional Tennis Wetter - Tennisleistungszentrum</strong></li><li><strong><a class=\"down\" title=\"Go Pro\" href=\"http://www.go-pro.at/home.htm\" target=\"_blank\">Go Pro </a>Jugendtennis &amp; Leistungszentrum</strong></li><li><a class=\"down\" title=\"Werner Bauer - Sportmasseur\" href=\"http://www.sportmasseur.at/\">MASSAGE</a> Gegen Voranmeldung</li><li><strong><a class=\"down\" href=\"http://www.sportparkwien.at/\" target=\"_blank\">Restaurant \"Verde\"</a></strong></li></ul>",
+		"LatLng": "48.284978,16.50174",
+		"Gymnastik": true,
+		"Gymnastikarten": ["Antara", "Bauch Bein Po \"plus\"", "Body Work", "Body Work \"plus\"", "Fatburning & Tone", "Fatburning Master", "Gesunder Rücken", "Indoor Cycling", "Kundalini Yoga", "Pilates", "Rücken Power", "Step Basic", "Step Master", "Vitaltraining", "Yoga Flow", "Zumba"],
+		"Ballsport": true,
+		"Ballsportarten": ["Badminton", "Squash", "Tennis", "Tennis Frei"],
+		"Oeffnungszeiten": [{
+			"Bereich": "Rezeption",
+			"Montag": ["07:00", "23:00"],
+			"Dienstag": ["07:00", "23:00"],
+			"Mittwoch": ["07:00", "23:00"],
+			"Donnerstag": ["07:00", "23:00"],
+			"Freitag": ["07:00", "23:00"],
+			"Samstag": ["07:00", "22:00"],
+			"Sonntag": ["07:00", "22:00"]
+		}, {
+			"Bereich": "Fitness",
+			"Montag": ["07:00", "21:30"],
+			"Dienstag": ["07:00", "21:30"],
+			"Mittwoch": ["07:00", "21:30"],
+			"Donnerstag": ["07:00", "21:30"],
+			"Freitag": ["07:00", "21:30"],
+			"Samstag": ["07:00", "20:00"],
+			"Sonntag": ["07:00", "20:00"]
+		}, {
+			"Bereich": "Ballspiele",
+			"Montag": ["07:00", "22:00"],
+			"Dienstag": ["07:00", "22:00"],
+			"Mittwoch": ["07:00", "22:00"],
+			"Donnerstag": ["07:00", "22:00"],
+			"Freitag": ["07:00", "22:00"],
+			"Samstag": ["07:00", "21:00"],
+			"Sonntag": ["07:00", "21:00"]
+		}, {
+			"Bereich": "Sauna und Dampfbad",
+			"Montag": ["08:30", "22:00"],
+			"Dienstag": ["08:30", "22:00"],
+			"Mittwoch": ["08:30", "22:00"],
+			"Donnerstag": ["08:30", "22:00"],
+			"Freitag": ["08:30", "22:00"],
+			"Samstag": ["08:30", "21:00"],
+			"Sonntag": ["08:30", "21:00"]
+		}
+
+		]
+	}]
+}
