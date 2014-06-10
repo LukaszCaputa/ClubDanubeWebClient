@@ -5,6 +5,7 @@
 angular.module('myApp.controllers', [])
   .controller('MyCtrl1', ['$scope','$http', function($scope, $http) {
   	$scope.data = {place: 'erdberg', sport: 'squash', result:'a'};
+    $http.defaults.useXDomain = true;
 
   	$scope.reset = function() {
       $scope.data = {place: '', sport: ''};
@@ -40,10 +41,13 @@ angular.module('myApp.controllers', [])
 
   xhr.send();*/
 
-  delete $http.defaults.headers.common['X-Requested-With'];
-$http.get('http://www.clubdanube.at/appdata/index.php?e=ballsport&s=S220120604&n=Squash&d=2014-06-08&ft=19%3A00%3A00&tt=21%3A00%3A00').success(function(data, status, headers, config){
+  //delete $http.defaults.headers.common['X-Requested-With'];
+  //delete $httpProvider.defaults.headers.common['X-Requested-With'];
+  $http.defaults.useXDomain = true;
+//$http.get('http://www.corsproxy.com/www.clubdanube.at/appdata/index.php?e=ballsport&s=S220120604&n=Squash&d=2014-06-10&ft=19%3A00%3A00&tt=21%3A00%3A00').success(function(data, status, headers, config){
+$http.get('http://www.clubdanube.at/appdata/index.php?e=ballsport&s=S220120604&n=Squash&d=2014-06-10&ft=19%3A00%3A00&tt=21%3A00%3A00').success(function(data, status, headers, config){
         // With the data succesfully returned, call our callback
-        alert("ok");
+        $scope.data.result = data;
     }).error(function(data, status, headers, config){
         alert("error");
         $scope.data.result = config;
