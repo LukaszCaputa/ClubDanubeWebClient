@@ -15,4 +15,25 @@
 <button ng-click="reset()">RESET</button><br>
 <button ng-click="send()">SEND</button><br>
 
-{{data.result}}
+<div ng-show="data.result">
+	<table>
+		<tr> <th>Date</th> <th>Time</th> <th>Free slots</th> </tr>
+
+
+	
+		
+		<tr ng-repeat="slot in data.result.data" >
+			
+				
+				<td id='tableDay'>{{slot.Tag}} </td>
+				<td id='tableTime'>{{slot.Anfang}} - {{slot.Ende}}</td>
+				<td id='tableFree'>{{slot.Frei}}</td>
+
+	</tr>
+	</table>
+	
+
+
+
+
+</div>

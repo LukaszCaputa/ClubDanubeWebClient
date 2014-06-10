@@ -28,3 +28,12 @@
   content: "";
   padding: 0;
 }
+#tableDay {
+  background-color:red;
+}
+#tableTime {
+  background-color:grey;
+}
+#tableFree {
+  background-color:red;
+}
