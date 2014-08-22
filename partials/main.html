@@ -1,4 +1,4 @@
-<form name="mainForm" ng-submit="send()">
+<form name="mainForm">
 
 	<label for="place">Choose place:</label><br>
 	<input type="radio" ng-model="request.place" value="erdberg" />CD Erdberg
@@ -17,7 +17,7 @@
 	<span class="error" ng-show="mainForm.dateField.$error.required">Date required !</span>
 	 
 	<button ng-click="reset()">RESET</button><br>
-	<input type="submit" value="Send"/>
+	<button ng-click="send()">Send</button><br>
 
 	<div ng-show="request.result" id="resultTable">
 		<table>
