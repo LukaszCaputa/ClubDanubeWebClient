@@ -7,42 +7,56 @@ angular.module('myApp.controllers', [])
   /* MainController */
   .controller('MainController', ['$scope','$http', function($scope, $http) {
 
-  	$scope.data = {place: 'erdberg', sport: 'squash', result:''};
+    function getDateAsString (){
+      var dateObject = new Date();
+      var currentYear = dateObject.getFullYear();
+      var currentMonth = dateObject.getMonth() + 1;
+      var currentDay = dateObject.getDate();
+
+      if(currentMonth<10){currentMonth = '0'+currentMonth}
+      if(currentDay<10){currentDay = '0'+currentDay}
+
+      var currentDate = currentYear +'-'+ currentMonth + '-' + currentDay
+      return currentDate;
+    }
+
+  	$scope.request = {place: 'erdberg', sport: 'squash', result:'', date:getDateAsString()};
+    
 	  $scope.dupa = "asdf";
     $http.defaults.useXDomain = true;
 
   	$scope.reset = function() {
-      $scope.data = {place: '', sport: ''};
+      $scope.request = {place: 'erdberg', sport: 'squash', result:'', date:da};
     };
 
     $scope.send = function() {
       var mainUrl = 'http://lukaszkoweapi.herokuapp.com/nocache/?url=http://www.clubdanube.at/appdata/index.php?e=ballsport';
       var placeUrl;
-      if($scope.data.place == 'erdberg'){
+      if($scope.request.place == 'erdberg'){
         placeUrl = 'S220120604';
-      } else if ($scope.data.place == 'ottakring'){
+      } else if ($scope.request.place == 'ottakring'){
         placeUrl = 'S42012060';
       }else{
-        alert($scope.data.place)
+        alert($scope.request.place)
       }
 
       var sportUrl;
-      if($scope.data.sport == 'squash'){
+      if($scope.request.sport == 'squash'){
         sportUrl = 'Squash';
-      } else if ($scope.data.sport == 'badminton'){
+      } else if ($scope.request.sport == 'badminton'){
         sportUrl = 'Badminton';
-      } else if ($scope.data.sport == 'tennis'){
+      } else if ($scope.request.sport == 'tennis'){
         sportUrl = 'Tennis';
       }else{
-        alert($scope.data.place)
+        alert($scope.request.place)
       }
       $http.defaults.useXDomain = true;
-      $http.get(mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d=2014-08-23%26ft=08%3A00%3A00%26tt=23%3A00%3A00').success(function(data, status, headers, config){
+      $http.get(mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d='+$scope.request.date+'%26ft=08%3A00%3A00%26tt=23%3A00%3A00').success(function(data, status, headers, config){
         // With the data succesfully returned, call our callback
-        $scope.data.result = data;
+        $scope.request.result = data;
       }).error(function(data, status, headers, config){
         alert("error");
-        $scope.data.result = config;
+        $scope.request.result = config;
       });
       
     };
