@@ -3,12 +3,12 @@
 /* Controllers */
 
 angular.module('myApp.controllers', [])
-  .controller('MyCtrl1', ['$scope','$http', function($scope, $http) {
-
-
-
+  
+  /* MainController */
+  .controller('MainController', ['$scope','$http', function($scope, $http) {
 
   	$scope.data = {place: 'erdberg', sport: 'squash', result:''};
+	  $scope.dupa = "asdf";
     $http.defaults.useXDomain = true;
 
   	$scope.reset = function() {
@@ -37,7 +37,7 @@ angular.module('myApp.controllers', [])
         alert($scope.data.place)
       }
       $http.defaults.useXDomain = true;
-      $http.get(mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d=2014-06-11%26ft=19%3A00%3A00%26tt=21%3A00%3A00').success(function(data, status, headers, config){
+      $http.get(mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d=2014-08-23%26ft=08%3A00%3A00%26tt=23%3A00%3A00').success(function(data, status, headers, config){
         // With the data succesfully returned, call our callback
         $scope.data.result = data;
       }).error(function(data, status, headers, config){
@@ -48,6 +48,8 @@ angular.module('myApp.controllers', [])
     };
 
   }])
-  .controller('MyCtrl2', ['$scope', function($scope) {
+
+  /* AboutController */
+  .controller('AboutController', ['$scope', function($scope) {
 
   }]);

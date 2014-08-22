@@ -11,6 +11,11 @@
   <option value="tennis">Tennis</option>
 </select> 
 <br>
+
+<label for="time">Choose date:</label><br />
+<input type="text" ng-model="dupa" ng-pattern="/n{4}/" />
+<span class="error" ng-show="input.dupa.$error.pattern">
+   Single word only!</span>
  
 
  <br>
