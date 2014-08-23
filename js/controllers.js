@@ -18,30 +18,29 @@ angular.module('myApp.controllers', [])
       var mainUrl = 'http://lukaszkoweapi.herokuapp.com/nocache/?url=http://www.clubdanube.at/appdata/index.php?e=ballsport';
       var placeUrl;
       var sportUrl;
-      var delimeter = '%26d=';
       var timeUrl = '%26ft=07%3A00%3A00%26tt=23%3A00%3A00';
 
       if($scope.request.place === 'erdberg'){
-        placeUrl = 'S220120604';
+        placeUrl = '%26s=S220120604';
       } else if ($scope.request.place === 'ottakring'){
-        placeUrl = 'S420120604';
+        placeUrl = '%26s=S420120604';
       }else{
         alert('Wrong place ! '+$scope.request.place)
       }
       
       if($scope.request.sport === 'squash'){
-        sportUrl = 'Squash';
+        sportUrl = '%26n=Squash';
       } else if ($scope.request.sport === 'badminton'){
-        sportUrl = 'Badminton';
+        sportUrl = '%26n=Badminton';
       } else if ($scope.request.sport === 'tennis'){
-        sportUrl = 'Tennis';
+        sportUrl = '%26n=Tennis';
       }else{
         alert('Wrong sport ! '+$scope.request.place)
       }
 
       $http.defaults.useXDomain = true;
       
-      var requestUrl = mainUrl+delimeter+placeUrl+delimeter+sportUrl+delimeter+$scope.request.date+timeUrl;
+      var requestUrl = mainUrl+placeUrl+sportUrl+'%26d='+$scope.request.date+timeUrl;
       
       $http.get(requestUrl).success(function(data, status, headers, config){
         $scope.request.result = data;

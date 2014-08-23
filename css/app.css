@@ -5,11 +5,22 @@ html {
 }
 
 header {
-  background: #F8F8F8;
-  list-style: none;
+  background: #9DC45F;
   border-bottom: 0.1em solid black;
   margin-bottom: 2em;
   padding: 0 0 0.5em;
+  font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+header > p {
+  float:right;
+  padding: 0 0 0.5em;
+  margin-right: 5em;
+}
+
+.menu > a{
+  display: block;
+    width: 60px;
 }
 
 footer {
@@ -20,12 +31,6 @@ footer {
     bottom: 0;
     height: 30px;
     width: 50%;
-}
-
-table {
-    border-radius: 5px 5px 0px 0px;
-    -webkit-border-radius: 5px 5px 0px 0px;
-    -moz-border-radius: 5px 5px 0px 0px;
 }
 
 th{
@@ -41,6 +46,7 @@ td {
     padding: 3px;
     background: #F8F8F8;
     font: normal 14px/14px Arial, Helvetica, sans-serif;
+    border: 1px solid #E5E5E5;
 }
 
 #mainDiv {
@@ -60,14 +66,8 @@ td {
   display: inline;
 }
 
-.menu > li:before {
-  padding-right: 0.7em;
-}
 
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 45;
-}
+
 
 /*######## Smart Green ########*/
 .smart-green {
