@@ -13,21 +13,27 @@
   <link rel="stylesheet" href="bower_components/html5-boilerplate/css/main.css">
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/animate.css"/>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
   <script src="bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
-  <ul class="menu">
-    <li><a href="#main">Main</a></li>
-    <li><a href="#about">About</a></li>
-  </ul>
+  <header>
+    <ul class="menu">
+      <li><a href="#main">Main</a></li>
+      <li><a href="#about">About <i class="fa fa-info"></i></a></li>
+    </ul>
+    <p id="logo">Club Donau Vienna - Web App</p>
+  </header>
+  
 
   <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
   <![endif]-->
 
-  <div ng-view ></div>
+  <div ng-view id="mainDiv"></div>
 
-  <div class='animated swing'>Angular seed app: v<span app-version></span></div>
+  <footer>Creative Commons 2014</footer>
 
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>

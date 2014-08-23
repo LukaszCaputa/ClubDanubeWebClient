@@ -1,33 +1,55 @@
-<form name="mainForm">
+<form name="mainForm" id="mainForm" class="smart-green">
+	<h1>Settings
+		<span>Please fill all</span>
+	</h1>
 
-	<label for="place">Choose place:</label><br>
-	<input type="radio" ng-model="request.place" value="erdberg" />CD Erdberg
-	<input type="radio" ng-model="request.place" value="ottakring" />CD Ottakring<br />
+	<label for="place">
+		<span>Select place:</span> 
 
-	<label for="sport">Choose sport:</label>
-	<select ng-model="request.sport">
-	  <option value="squash">Squash</option>
-	  <option value="badminton">Badminton</option>
-	  <option value="tennis">Tennis</option>
-	</select> 
+		<select ng-model="request.place">
+		  <option value="erdberg">CD Erdberg</option>
+		  <option value="ottakring">CD Ottakring</option>
+		</select>
 
-	<label for="time">Choose date:</label><br />
-	<input type="text" name="dateField" ng-model="request.date" ng-pattern="/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/" required>
-	<span class="error" ng-show="mainForm.dateField.$error.pattern">Wrong date format ! Use YYYY-MM-DD </span>
-	<span class="error" ng-show="mainForm.dateField.$error.required">Date required !</span>
-	 
-	<button ng-click="reset()">RESET</button><br>
-	<button ng-click="send()">Send</button><br>
+	</label>
 
-	<div ng-show="request.result" id="resultTable">
-		<table>
-			<tr> <th>Date</th> <th>Time</th> <th>Free slots</th> </tr>
-			<tr ng-repeat="slot in request.result.data" >
-				<td id='tableDay'>{{slot.Tag}} </td>
-				<td id='tableTime'>{{slot.Anfang}} - {{slot.Ende}}</td>
-				<td id='tableFree'>{{slot.Frei}}</td>
+	<br>
 
-			</tr>
-		</table>
-	</div>
+	<label for="sport">
+		<span>Select sport:</span>
+		<select ng-model="request.sport">
+		  <option value="squash">Squash</option>
+		  <option value="badminton">Badminton</option>
+		  <option value="tennis">Tennis</option>
+		</select>
+	</label> 
+
+	<label for="time">
+		<span>Choose date:</span>
+		<input type="text" name="dateField" ng-model="request.date" ng-pattern="/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/" required>
+		<span class="error" ng-show="mainForm.dateField.$error.pattern">Wrong date format ! Use YYYY-MM-DD </span>
+		<span class="error" ng-show="mainForm.dateField.$error.required">Date required !</span>
+	</label>
+
+	<label>
+		<span>&nbsp;</span> 
+		<button ng-click="reset()" class="button">Reset <i class="fa fa-refresh"></i> </button>
+	</label>
+
+	<label>
+		<span>&nbsp;</span> 
+		<button ng-click="send()" class="button">Send <i class="fa fa-exchange"></i> </button>
+	</label>
+	
 </form>
+
+<div ng-show="request.result" id="resultTable">
+	<table>
+		<tr> <th>Date</th> <th>Time</th> <th>Free slots</th> </tr>
+		<tr ng-repeat="slot in request.result.data" >
+			<td id='tableDay'>{{slot.Tag}} </td>
+			<td id='tableTime'>{{slot.Anfang.substring(0, 5)}} - {{slot.Ende.substring(0, 5)}}</td>
+			<td id='tableFree'>{{slot.Frei}}</td>
+		</tr>
+	</table>
+</div>

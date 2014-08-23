@@ -30,7 +30,6 @@ angular.module('myApp.controllers', [])
     };
 
     $scope.send = function() {
-      alert("dupa");
       var mainUrl = 'http://lukaszkoweapi.herokuapp.com/nocache/?url=http://www.clubdanube.at/appdata/index.php?e=ballsport';
       var placeUrl;
       if($scope.request.place == 'erdberg'){
@@ -52,7 +51,7 @@ angular.module('myApp.controllers', [])
         alert($scope.request.place)
       }
       $http.defaults.useXDomain = true;
-      var requestUrl = mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d='+$scope.request.date+'%26ft=08%3A00%3A00%26tt=23%3A00%3A00';
+      var requestUrl = mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d='+$scope.request.date+'%26ft=07%3A00%3A00%26tt=23%3A00%3A00';
       $http.get(requestUrl).success(function(data, status, headers, config){
         $scope.request.result = data;
       }).error(function(data, status, headers, config){
