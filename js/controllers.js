@@ -7,6 +7,51 @@ angular.module('myApp.controllers', [])
   /* MainController */
   .controller('MainController', ['$scope','$http', function($scope, $http) {
 
+  	$scope.request = {place: 'erdberg', sport: 'squash', result:'', date:getDateAsString()};
+    $http.defaults.useXDomain = true;
+
+  	$scope.reset = function() {
+      $scope.request = {place: 'erdberg', sport: 'squash', result:null, date:getDateAsString()};
+    };
+
+    $scope.send = function() {
+      var mainUrl = 'http://lukaszkoweapi.herokuapp.com/nocache/?url=http://www.clubdanube.at/appdata/index.php?e=ballsport';
+      var placeUrl;
+      var sportUrl;
+      var delimeter = '%26d=';
+      var timeUrl = '%26ft=07%3A00%3A00%26tt=23%3A00%3A00';
+
+      if($scope.request.place === 'erdberg'){
+        placeUrl = 'S220120604';
+      } else if ($scope.request.place === 'ottakring'){
+        placeUrl = 'S420120604';
+      }else{
+        alert('Wrong place ! '+$scope.request.place)
+      }
+      
+      if($scope.request.sport === 'squash'){
+        sportUrl = 'Squash';
+      } else if ($scope.request.sport === 'badminton'){
+        sportUrl = 'Badminton';
+      } else if ($scope.request.sport === 'tennis'){
+        sportUrl = 'Tennis';
+      }else{
+        alert('Wrong sport ! '+$scope.request.place)
+      }
+
+      $http.defaults.useXDomain = true;
+      
+      var requestUrl = mainUrl+delimeter+placeUrl+delimeter+sportUrl+delimeter+$scope.request.date+timeUrl;
+      
+      $http.get(requestUrl).success(function(data, status, headers, config){
+        $scope.request.result = data;
+      }).error(function(data, status, headers, config){
+        alert("Error - request to ClubDanube failed !");
+        $scope.request.result = config;
+      });
+      
+    };
+
     function getDateAsString (){
       var dateObject = new Date();
       var currentYear = dateObject.getFullYear();
@@ -19,47 +64,6 @@ angular.module('myApp.controllers', [])
       var currentDate = currentYear +'-'+ currentMonth + '-' + currentDay
       return currentDate;
     }
-
-  	$scope.request = {place: 'erdberg', sport: 'squash', result:'', date:getDateAsString()};
-    
-	  $scope.dupa = "asdf";
-    $http.defaults.useXDomain = true;
-
-  	$scope.reset = function() {
-      $scope.request = {place: 'erdberg', sport: 'squash', result:null, date:getDateAsString()};
-    };
-
-    $scope.send = function() {
-      var mainUrl = 'http://lukaszkoweapi.herokuapp.com/nocache/?url=http://www.clubdanube.at/appdata/index.php?e=ballsport';
-      var placeUrl;
-      if($scope.request.place == 'erdberg'){
-        placeUrl = 'S220120604';
-      } else if ($scope.request.place == 'ottakring'){
-        placeUrl = 'S42012060';
-      }else{
-        alert($scope.request.place)
-      }
-
-      var sportUrl;
-      if($scope.request.sport == 'squash'){
-        sportUrl = 'Squash';
-      } else if ($scope.request.sport == 'badminton'){
-        sportUrl = 'Badminton';
-      } else if ($scope.request.sport == 'tennis'){
-        sportUrl = 'Tennis';
-      }else{
-        alert($scope.request.place)
-      }
-      $http.defaults.useXDomain = true;
-      var requestUrl = mainUrl+'%26s='+placeUrl+'%26n='+sportUrl+'%26d='+$scope.request.date+'%26ft=07%3A00%3A00%26tt=23%3A00%3A00';
-      $http.get(requestUrl).success(function(data, status, headers, config){
-        $scope.request.result = data;
-      }).error(function(data, status, headers, config){
-        alert("error");
-        $scope.request.result = config;
-      });
-      
-    };
 
   }])
 

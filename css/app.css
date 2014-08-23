@@ -152,3 +152,7 @@ td {
     background-color:#80A24A;
 }
 
+.smart-green .error{
+    color: red;
+}
+
